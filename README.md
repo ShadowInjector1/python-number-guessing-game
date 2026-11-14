@@ -3,6 +3,7 @@ A Python-based number guessing game where players guess a randomly generated num
 
 🎮 Python Number Guessing Game
 📌 Project Overview
+
 The Python Number Guessing Game is a beginner-friendly command-line game developed using Python.
 
 In this game, the computer randomly selects a secret number between 1 and 100, and the player must guess the correct number.
@@ -12,6 +13,7 @@ The game provides helpful hints such as "Too High" or "Too Low" to guide the pla
 This project helps beginners understand Python fundamentals and improve their problem-solving skills.
 
 ✨ Features
+
 🎲 Random number generation between 1 and 100.
 ⬆️ Too High hint when the guess is greater than the secret number.
 ⬇️ Too Low hint when the guess is smaller than the secret number.
@@ -20,6 +22,7 @@ This project helps beginners understand Python fundamentals and improve their pr
 🔄 Play Again option.
 ⚠️ Handles invalid user input.
 🚫 Prevents guesses outside the 1–100 range.
+
 🛠️ Technologies Used
 Programming Language: Python 3
 Modules: Random
@@ -31,6 +34,7 @@ Conditional Statements (if-elif-else)
 User Input
 Exception Handling (try-except)
 Random Number Generation
+
 📥 Installation Instructions
 Follow these steps to run the project on your local machine.
 
@@ -45,15 +49,16 @@ cd python-number-guessing-game
 3. Check Python Installation
 Make sure Python 3 is installed.
 
-
 bash
 python --version
+
 ▶️ How to Run
 Run the following command in your terminal:
 
 
 bash
 python guessing_game.py
+
 💻 Example Output
 
 text
@@ -77,6 +82,7 @@ Total Attempts: 3
 Play Again? (yes/no): no
 
 Thanks for playing!
+
 🔮 Future Improvements
 The following features can be added in future versions:
 
