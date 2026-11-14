@@ -1,65 +1,39 @@
-# python-number-guessing-game
-A Python-based number guessing game where players guess a randomly generated number between 1 and 100 with helpful hints and an attempt counter.
-
 🎮 Python Number Guessing Game
 📌 Project Overview
+A Python-based Number Guessing Game where players guess a randomly generated number between 1 and 100 with helpful hints and an attempt counter.
 
-The Python Number Guessing Game is a beginner-friendly command-line game developed using Python.
+This is my second Python project, built to practice basic Python programming concepts.
 
-In this game, the computer randomly selects a secret number between 1 and 100, and the player must guess the correct number.
-
-The game provides helpful hints such as "Too High" or "Too Low" to guide the player toward the correct answer.
-
-This project helps beginners understand Python fundamentals and improve their problem-solving skills.
-
-✨ Features
-
-🎲 Random number generation between 1 and 100.
-⬆️ Too High hint when the guess is greater than the secret number.
-⬇️ Too Low hint when the guess is smaller than the secret number.
-🏆 Winning message when the correct number is guessed.
-🔢 Tracks the total number of attempts.
-🔄 Play Again option.
-⚠️ Handles invalid user input.
-🚫 Prevents guesses outside the 1–100 range.
-
+🚀 Features
+Random number generation between 1 and 100.
+Detects whether the guessed number is too high or too low.
+Tracks the total number of attempts.
+Displays a winning message.
+Includes a Play Again option.
+Handles invalid user input.
+Prevents guesses outside the 1–100 range.
 🛠️ Technologies Used
-Programming Language: Python 3
-Modules: Random
-Concepts Used:
-Variables
+Python 3
+Random Module
+While Loop
+Conditional Statements
 Functions
-While Loops
-Conditional Statements (if-elif-else)
-User Input
-Exception Handling (try-except)
-Random Number Generation
-
-📥 Installation Instructions
-Follow these steps to run the project on your local machine.
-
-1. Clone the Repository
+Exception Handling
+📂 How to Run
+Make sure Python 3 is installed on your system.
+Clone this repository:
 
 bash
 git clone https://github.com/your-username/python-number-guessing-game.git
-2. Navigate to the Project Directory
+Navigate to the project folder:
 
 bash
 cd python-number-guessing-game
-3. Check Python Installation
-Make sure Python 3 is installed.
-
-bash
-python --version
-
-▶️ How to Run
-Run the following command in your terminal:
-
+Run the Python script:
 
 bash
 python guessing_game.py
-
-💻 Example Output
+💻 Sample Output
 
 text
 ===== NUMBER GUESSING GAME =====
@@ -78,22 +52,10 @@ Congratulations! You Won!
 
 Secret Number: 65
 Total Attempts: 3
-
-Play Again? (yes/no): no
-
-Thanks for playing!
-
 🔮 Future Improvements
-The following features can be added in future versions:
-
-Add different difficulty levels (Easy, Medium, Hard).
-Introduce a maximum number of attempts.
-Add a scoring system.
-Implement a countdown timer.
-Create a leaderboard to track high scores.
-Develop a graphical user interface (GUI) using Tkinter.
-
-⭐ Support
-If you like this project, don't forget to give it a ⭐ on GitHub!
-
-Made with ❤️ using Python
+Add difficulty levels (Easy, Medium, Hard).
+Add a maximum attempts limit.
+Implement a scoring system.
+Add a countdown timer.
+Create a leaderboard.
+Develop a graphical interface using Tkinter
